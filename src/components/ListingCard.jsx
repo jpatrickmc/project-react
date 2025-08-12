@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Card, CardContent } from '@/components/ui';
 import { getImageUrl } from '@/lib/utils/images';
 

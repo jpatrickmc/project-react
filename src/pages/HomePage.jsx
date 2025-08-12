@@ -1,8 +1,5 @@
-import React from 'react';
-
 import { listings } from '@/api/data/listings';
-
-import ListingList from '../components/ListingList';
+import ListingList from '@/components/ListingList';
 
 const HomePage = () => {
   return (

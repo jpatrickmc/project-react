@@ -1,6 +1,6 @@
-import { react } from 'react';
+// created with rjsfc
 
-import ListingCard from './ListingCard';
+import ListingCard from '@/components/ListingCard';
 
 const ListingList = ({ listings }) => {
   return (
@@ -10,7 +10,7 @@ const ListingList = ({ listings }) => {
           <ListingCard key={listing.id} listing={listing} />
         ))
       ) : (
-        <div className='text-center text-gray-500'>No listings found</div>
+        <p>No listings found.</p>
       )}
     </div>
   );
